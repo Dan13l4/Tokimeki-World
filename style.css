@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btnes{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.btn{
+    margin-bottom: 60px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #FFD9E6;
+    width: 380px;
+    border-radius: 30px;
+}
+
+.inicioTexto{
+    justify-content: center;
+    margin: 40px;
+    font-size: 17px;
+}
