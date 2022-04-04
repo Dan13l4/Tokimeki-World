@@ -11,13 +11,13 @@ export default () => {
             <button class="btnes"><img src="./img/btnUno.png" alt="tokimekiUno"></button>
             <button class="btnes"><img src="./img/btnDos.png" alt="tokimekiDos"></button>
             <button class="btnes"><img src="./img/btnTres.png" alt="tokimekiTres"></button>
-            <button class="btnes tokiCuatro" id="tokicuatro" href='#/newPost'><img src="./img/btnCuatro.png" alt="tokimekiCuatro" id="tokicuatro"></button>
+            <button class="btnes tokiCuatro" id="tokicuatro"><img src="./img/btnCuatro.png" alt="tokimekiCuatro" id="tokicuatro"></button>
         </div>
     </div>
 
     <div id="modal" class="modalHidden">
-          <div><button class="btn-close" id="close">Close</button> </div>
           <div id="segundaseccion"></div>
+          <div><button class="btn-close btnes" id="close"><img src="./img/Grupo 8.png" alt="aceptar"></button> </div>
         </div>
     `;
 
@@ -27,7 +27,16 @@ export default () => {
 
     divElem.querySelector("#tokicuatro").addEventListener("click", () => {
         document.getElementById("modal").style.display= "flex";
-        document.getElementById("segundaseccion").innerHTML = `holi`;
+        document.getElementById("segundaseccion").innerHTML = `
+        <div>
+            <img src="./img/chibiRyota.PNG" alt="ryota">
+            <p class="tokicuatroaaa">¡Esta guía aun no esta implementada! Perdona por los inconvenientes, se espera que este lista para cuando la version de Tokimeki memorial 4 llegue a occidente.</p>
+        </div>
+        `;
+    })
+
+    divElem.querySelector("#close").addEventListener("click", () => { 
+        document.getElementById("modal").style.display= "none";
     })
 
     return divElem;
