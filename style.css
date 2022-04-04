@@ -5,8 +5,8 @@
 
 .all{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    justify-items: center;
 }
 
 .btnes{
@@ -42,3 +42,23 @@
     margin: 40px;
     font-size: 17px;
 }
+
+.modalHidden{
+    display: none;
+    color: #FFFFFF;
+    background-color: #A2C4D7;
+    justify-content: center;
+    justify-items: center;
+    width: 90vw;
+    height: 90%;
+    margin-left: 5vw;
+    position: fixed;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    top: 0;
+    margin-top: 3%;
+}
+

@@ -9,7 +9,9 @@ const changeView = (route) => {
         { return container.appendChild(components.home()); }
         case '#/':
         { return container.appendChild(components.home()); }
+        case "#/newPost":
+        { return container.appendChild(components.modal()); }
         default:
       }
     };
-    export { changeView };
+export { changeView };
