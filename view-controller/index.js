@@ -9,6 +9,10 @@ const changeView = (route) => {
         { return container.appendChild(components.home()); }
         case '#/':
         { return container.appendChild(components.home()); }
+        case '#/tokimekiUno':
+        { return container.appendChild(components.guiaUno()); }
+        case '#/citas':
+        { return container.appendChild(components.citas()); }
         default:
       }
     };

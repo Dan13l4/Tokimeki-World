@@ -8,7 +8,7 @@ export default () => {
         <p class="inicioTexto">¡Bienvenido a Tokimeki Memorial world! En este lugar encontraras las guías de los diferentes juegos de Tokimeki, estamos en constante actualización así que no dudes en visitarnos. Escoge uno de los juegos para acceder a su guía:</p>
 
         <div class="btn">
-            <button class="btnes"><img src="./img/btnUno.png" alt="tokimekiUno"></button>
+            <button class="btnes" id="guiaUno"><img src="./img/btnUno.png" alt="tokimekiUno"></button>
             <button class="btnes"><img src="./img/btnDos.png" alt="tokimekiDos"></button>
             <button class="btnes"><img src="./img/btnTres.png" alt="tokimekiTres"></button>
             <button class="btnes tokiCuatro" id="tokicuatro"><img src="./img/btnCuatro.png" alt="tokimekiCuatro" id="tokicuatro"></button>
@@ -17,7 +17,7 @@ export default () => {
 
     <div id="modal" class="modalHidden">
           <div id="segundaseccion"></div>
-          <div><button class="btn-close btnes" id="close"><img src="./img/Grupo 8.png" alt="aceptar"></button> </div>
+          <div><button class="btn-close btnes" id="close"><img src="./img/aceptar.png" alt="aceptar"></button> </div>
         </div>
     `;
 
@@ -37,6 +37,10 @@ export default () => {
 
     divElem.querySelector("#close").addEventListener("click", () => { 
         document.getElementById("modal").style.display= "none";
+    })
+
+    divElem.querySelector("#guiaUno").addEventListener("click", () => { 
+        window.location.hash = '#/tokimekiUno';
     })
 
     return divElem;
