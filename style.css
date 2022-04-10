@@ -176,6 +176,11 @@
     padding: 20px;
 }
 
+.suzuka{
+    background-color: #DCFFD6;
+    padding: 20px;
+}
+
 .itemsDos{
     background-color: white;
     border-radius: 30px;
@@ -226,4 +231,9 @@
 
 .citasHazuki{
     margin-left: 20px;
+}
+
+.suzukaBio{
+    margin-top: 15px;
+    margin-left: 15px;
 }

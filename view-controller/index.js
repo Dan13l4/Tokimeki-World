@@ -19,6 +19,8 @@ const changeView = (route) => {
         { return container.appendChild(components.KeiHazuki()); }
         case '#/SakuyaMorimura':
         { return container.appendChild(components.sakuyaMori()); }
+        case '#/KazumaSuzuka':
+        { return container.appendChild(components.kazumaSuzuka()); }
         default:
       }
     };
