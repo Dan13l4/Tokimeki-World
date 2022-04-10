@@ -69,5 +69,9 @@ export default () => {
         window.location.hash = '#/HazukiKei';
     })
 
+    divElem.querySelector("#sakuya").addEventListener("click", () => {
+        window.location.hash = '#/SakuyaMorimura';
+    })
+
     return divElem;
 }

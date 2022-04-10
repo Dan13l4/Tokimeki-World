@@ -3,6 +3,7 @@ import tokiguiaUno from "./tokimekiUno.js"
 import citas from "./sobrecitas.js";
 import chicos from "./chicos.js";
 import KeiHazuki from "./personajes/chicos/Kei-Hazuki.js";
+import sakuyaMori from "./personajes/chicos/sakuya-mori.js";
 
 const components = {
     home: inicio,
@@ -10,6 +11,7 @@ const components = {
     citas,
     chicos,
     KeiHazuki,
+    sakuyaMori,
 };
 
 export {components};

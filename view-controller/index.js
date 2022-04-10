@@ -17,6 +17,8 @@ const changeView = (route) => {
         { return container.appendChild(components.chicos()); }
         case '#/HazukiKei':
         { return container.appendChild(components.KeiHazuki()); }
+        case '#/SakuyaMorimura':
+        { return container.appendChild(components.sakuyaMori()); }
         default:
       }
     };
