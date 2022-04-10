@@ -129,6 +129,16 @@
     font-size: 16px;
 }
 
+.conteinarTokiUnoDos{
+    background-color: white;
+    margin: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    font-size: 16px;
+}
+
 .tokiuno{
     margin-top: 20px;
     margin-left: 15px;
@@ -189,4 +199,26 @@
 .Hazuki{
     display: flex;
     width: 300px;
+}
+
+.hazukiBio{
+    margin-top: 15px;
+    margin-left: -30px;
+}
+
+.greenTitle{
+    color: #668261;
+}
+
+.contenedorhazuki{
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.titulodescripcion{
+    color: #668261;
+}
+
+.citasHazuki{
+    margin-left: 20px;
 }
